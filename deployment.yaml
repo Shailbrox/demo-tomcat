@@ -6,7 +6,7 @@ spec:
   strategy:
     type: RollingUpdate
   replicas: 2
-  selctor:
+  selector:
     matchLabels:
       app: tomcat-frontend
   template:
